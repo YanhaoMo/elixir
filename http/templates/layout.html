@@ -15,7 +15,7 @@
 				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 		<![endif]-->
 		<div class="wrapper">
-			{% include 'header.html' %}
+            <header class="header"> </header>
 			<header class="sub-header">
 				<select class="select-projects" onchange="window.location.href=this.value">
 				{%- for p in projects %}
@@ -57,7 +57,7 @@
 			<footer class="footer">
 				<span class="version"><a href="{{version}}/source">{{project}}</a> <em class="icon-tag">{{tag}}</em></span>
 				<a title="Go to top of the page" class="go-top icon-up screenreader" href="{{version}}/{{url}}#">Top</a>
-				<span class="poweredby">powered by <a target="_blank" href="https://github.com/free-electrons/elixir">Elixir 0.3</a></span>
+				<span class="poweredby">powered by <a target="_blank" href="https://github.com/YanhaoMo/elixir">Elixir 0.3</a></span>
 			</footer>
 		</div>
 		<script src="/script.js?v=3"></script>
